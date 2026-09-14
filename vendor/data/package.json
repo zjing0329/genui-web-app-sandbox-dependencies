@@ -1,0 +1,26 @@
+{
+  "name": "@openclaw-webapp-kit/data",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./react": {
+      "types": "./dist/react.d.ts",
+      "import": "./dist/react.js"
+    }
+  },
+  "dependencies": {
+    "dexie": "4.4.5",
+    "dexie-react-hooks": "4.4.0"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  }
+}

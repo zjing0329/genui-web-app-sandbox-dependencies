@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Tailwind v4 theme tokens belong in @theme. Put custom defaults/components
+   in @layer so utilities can override them without specificity workarounds. */
+@layer base {
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, sans-serif; }
+  button, input, textarea, select { font: inherit; }
+  button { cursor: pointer; }
+  :focus-visible { outline: 3px solid #137c66; outline-offset: 3px; }
+  main { max-width: 1200px; margin: auto; padding: 24px; }
+}

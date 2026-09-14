@@ -1,0 +1,2 @@
+# Preserve vendored distribution bytes; do not lint generated upstream whitespace.
+vendor/**/dist/** -whitespace linguist-generated=true

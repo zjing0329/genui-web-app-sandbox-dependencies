@@ -1,0 +1,28 @@
+{
+  "name": "@deepdiver-build/ascf-web-sdk",
+  "version": "1.0.0",
+  "description": "ASCF Web SDK for HarmonyOS atomic service web containers.",
+  "type": "module",
+  "main": "dist/ascf-web-sdk.es.js",
+  "module": "dist/ascf-web-sdk.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/ascf-web-sdk.es.js",
+      "require": "./dist/ascf-web-sdk.umd.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Namco0816/deepdiver-server.git",
+    "directory": "dev_env_module/ascf-web-sdk"
+  },
+  "license": "Apache-2.0",
+  "private": true
+}
